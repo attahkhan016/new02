@@ -1,4 +1,4 @@
-FROMd phusion/passenger-ruby21:0.9.12
+FROM phusion/passenger-ruby21:0.9.12
 MAINTAINER Eric L'Hostis "eric.lhostis@gmail.com"
 
 RUN apt-get update -qq && apt-get install -y build-essential
