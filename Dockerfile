@@ -21,7 +21,6 @@ CMD ["/sbin/my_init"]
 # Conf Nginx / Passenger
 RUN rm -f /etc/service/nginx/down
 RUN rm /etc/nginx/sites-enabled/default
-ADD nginx.conf /etc/nginx/sites-enabled/webapp.conf
 
 # Prepare folders
 RUN mkdir /home/app/webapp
